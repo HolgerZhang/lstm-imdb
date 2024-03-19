@@ -1,0 +1,47 @@
+{
+  "citation": "",
+  "config_name": "plain_text",
+  "dataset_size": 66089758,
+  "description": "",
+  "download_checksums": {
+    "https://huggingface.co/datasets/imdb/resolve/e6281661ce1c48d982bc483cf8a173c1bbeb5d31/plain_text/train-00000-of-00001.parquet": {
+      "num_bytes": 20979968,
+      "checksum": null
+    },
+    "https://huggingface.co/datasets/imdb/resolve/e6281661ce1c48d982bc483cf8a173c1bbeb5d31/plain_text/test-00000-of-00001.parquet": {
+      "num_bytes": 20470363,
+      "checksum": null
+    }
+  },
+  "download_size": 41450331,
+  "features": {
+    "text": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "label": {
+      "names": [
+        "neg",
+        "pos"
+      ],
+      "_type": "ClassLabel"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 107540089,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 33435948,
+      "num_examples": 25000,
+      "dataset_name": "parquet"
+    },
+    "test": {
+      "name": "test",
+      "num_bytes": 32653810,
+      "num_examples": 25000,
+      "dataset_name": "parquet"
+    }
+  }
+}
