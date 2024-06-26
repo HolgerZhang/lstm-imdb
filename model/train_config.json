@@ -1,0 +1,1 @@
+{"word2vec": {"train": true, "param": {"embedding_dim": 100, "window": 5, "min_count": 1, "workers": 8, "epochs": 10}}, "tokenizer": {"length_fixed": false, "sentence_max_length": 210}, "lstm": {"train": true, "param": {"hidden_dim": 400, "output_dim": 1, "num_epochs": 10, "learning_rate": 0.01}}}

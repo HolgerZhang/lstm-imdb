@@ -203,3 +203,5 @@ cython_debug/
 *.npy
 *.pth
 *.pt
+old/
+data/
